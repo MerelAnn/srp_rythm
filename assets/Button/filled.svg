@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="255" height="54" viewBox="0 0 255 54">
+  <defs>
+    <linearGradient id="filled-a" x1="50%" x2="50%" y1="0%" y2="98.113%">
+      <stop offset="0%" stop-color="#6AE7C4"/>
+      <stop offset="100%" stop-color="#3289DC"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="254.25" height="54" fill="url(#filled-a)" rx="3.75"/>
+    <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="27">
+      <tspan x="76.645" y="34.75">Button 1</tspan>
+    </text>
+  </g>
+</svg>

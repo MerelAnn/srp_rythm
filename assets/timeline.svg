@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="218" viewBox="0 0 118 218">
+  <defs>
+    <linearGradient id="timeline-a" x1="50%" x2="50%" y1="0%" y2="98.113%">
+      <stop offset="0%" stop-color="#6AE7C4"/>
+      <stop offset="100%" stop-color="#3289DC"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path stroke="url(#timeline-a)" stroke-width="3" d="M9,7 C57.1822949,11.0514792 90.4888447,33.6196931 108.91965,74.7046418 C141.808743,165.584232 64.5152967,212.19176 64.5407825,211.83496"/>
+    <circle cx="65.5" cy="211.5" r="6.5" fill="#3289DC"/>
+    <circle cx="6.5" cy="6.5" r="6.5" fill="#6AE6C4"/>
+  </g>
+</svg>

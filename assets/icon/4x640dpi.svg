@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98" height="141" viewBox="0 0 98 141">
+  <defs>
+    <linearGradient id="4x640dpi-a" x1="13.901%" x2="13.901%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#60D2D9"/>
+      <stop offset="100%" stop-color="#72F0CD"/>
+    </linearGradient>
+    <path id="4x640dpi-b" d="M73.4787917,134.555251 L73.3884786,134.607393 L38.2535315,73.7518797 L25.7894737,73.7518797 L25.7894737,140.752952 L0,140.752952 L0,70.3764758 L0,0 L0.0902255639,0 L0.0902255639,-0.037593985 L61.8045113,-0.037593985 L61.8045113,0.00782583033 C81.8644553,0.416230939 98,16.7578514 98,36.8571429 C98,54.9546764 84.9183985,70.005746 67.6691893,73.1223463 L95.1143661,120.658787 C95.2105094,120.810251 95.3039022,120.964406 95.3944423,121.121226 C95.4849824,121.278047 95.5717886,121.436005 95.6548887,121.594999 L95.722818,121.712656 L95.7172493,121.715871 C98.775746,127.722136 96.5895535,135.16126 90.6381207,138.597322 C84.6866879,142.033383 77.1511214,140.207119 73.4787917,134.555251 Z M61.8947368,25.7467625 L61.8947368,25.7142857 L25.7894737,25.7142857 L25.7894737,48 L61.8947368,48 L61.8947368,47.9675232 C67.6650866,47.5298447 72.2105263,42.7227684 72.2105263,36.8571429 C72.2105263,30.9915174 67.6650866,26.184441 61.8947368,25.7467625 Z"/>
+    <filter id="4x640dpi-c" width="107.1%" height="105%" x="-3.6%" y="-2.5%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2.5"/>
+      <feOffset dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.112295596   0 0 0 0 0.205487975   0 0 0 0 0.314147534  0 0 0 0.76953125 0"/>
+    </filter>
+    <linearGradient id="4x640dpi-d" x1="50%" x2="50%" y1="0%" y2="98.113%">
+      <stop offset="0%" stop-color="#6AE7C4"/>
+      <stop offset="100%" stop-color="#3289DC"/>
+    </linearGradient>
+    <path id="4x640dpi-e" d="M-8.40785373e-07,95.0269989 C5.76656595,82.6830392 18.1884956,74.0534874 32.6666667,73.7240565 L32.6666667,73.7142857 L59.4502493,73.7142857 C59.4478439,73.7030929 59.4454328,73.6919022 59.443016,73.6807137 C59.9709173,73.7030207 60.5016831,73.7142857 61.0350877,73.7142857 C81.450245,73.7142857 98,57.2127808 98,36.8571429 C98,16.5015049 81.450245,0 61.0350877,0 C44.5151659,0 30.5263203,10.8052312 25.7895537,25.7142857 L60.1754386,25.7142857 L60.1754386,25.7386548 C66.8962028,26.1209188 72.2105263,30.952734 72.2105263,36.8571429 C72.2105263,42.7615517 66.8962028,47.593367 60.1754386,47.9756309 L60.1754386,48 L25.7895537,48 C25.7941744,48.0145437 25.7988039,48.0290834 25.8034421,48.0436192 C14.9640454,48.5994498 5.52104785,54.4235766 -3.43041928e-10,62.9978122 L-3.43042816e-10,95.0269969 Z"/>
+    <filter id="4x640dpi-f" width="107.1%" height="107.4%" x="-3.6%" y="-3.7%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2.5"/>
+      <feOffset dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.0590890426   0 0 0 0 0.125379981   0 0 0 0 0.202673257  0 0 0 0.607252038 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="url(#4x640dpi-a)" xlink:href="#4x640dpi-b"/>
+    <use fill="#000" filter="url(#4x640dpi-c)" xlink:href="#4x640dpi-b"/>
+    <g>
+      <use fill="url(#4x640dpi-d)" xlink:href="#4x640dpi-e"/>
+      <use fill="#000" filter="url(#4x640dpi-f)" xlink:href="#4x640dpi-e"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="255" height="54" viewBox="0 0 255 54">
+  <defs>
+    <linearGradient id="invoerveld-c" x1="50%" x2="50%" y1="0%" y2="98.113%">
+      <stop offset="0%" stop-color="#6AE7C4"/>
+      <stop offset="100%" stop-color="#3289DC"/>
+    </linearGradient>
+    <rect id="invoerveld-a" width="254.25" height="54" rx="3.75"/>
+    <filter id="invoerveld-b" width="103.1%" height="114.8%" x="-1.6%" y="-7.4%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="3.5"/>
+      <feOffset dx="1" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#323232" xlink:href="#invoerveld-a"/>
+    <use fill="#000" filter="url(#invoerveld-b)" xlink:href="#invoerveld-a"/>
+    <rect width="253.25" height="53" x=".5" y=".5" stroke="url(#invoerveld-c)" rx="3.75"/>
+    <text fill="#8B8B8B" font-family="Roboto-Light, Roboto" font-size="18" font-weight="300">
+      <tspan x="26" y="32">Username</tspan>
+    </text>
+  </g>
+</svg>

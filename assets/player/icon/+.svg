@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="57" viewBox="0 0 56 57">
+  <defs>
+    <linearGradient id="+-c" x1="50%" x2="50%" y1="0%" y2="98.113%">
+      <stop offset="0%" stop-color="#6AE7C4"/>
+      <stop offset="100%" stop-color="#3289DC"/>
+    </linearGradient>
+    <circle id="+-b" cx="28" cy="29" r="28"/>
+    <filter id="+-a" width="119.6%" height="119.6%" x="-9.8%" y="-6.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" filter="url(#+-a)" xlink:href="#+-b"/>
+    <use fill="url(#+-c)" xlink:href="#+-b"/>
+    <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="48">
+      <tspan x="14" y="45">+</tspan>
+    </text>
+  </g>
+</svg>

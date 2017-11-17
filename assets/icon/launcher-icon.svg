@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="228" height="329" viewBox="0 0 228 329">
+  <defs>
+    <linearGradient id="launcher-icon-a" x1="13.901%" x2="13.901%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#60D2D9"/>
+      <stop offset="100%" stop-color="#72F0CD"/>
+    </linearGradient>
+    <path id="launcher-icon-b" d="M170.913572,314.01743 L170.874379,314.040058 L88.8675135,172 L60,172 L60,328.423554 L0,328.423554 L0,164.211777 L0,30 L3.6739404e-15,0 L144,7.10542736e-15 L144,0.0227984394 C190.572677,1.08559691 228,39.1719886 228,86 C228,128.253722 197.527557,163.390223 157.359894,170.632282 L222.835903,284.040058 L222.796711,284.062686 C229.862958,298.026688 224.738189,315.313159 210.872362,323.318597 C197.006536,331.324036 179.473629,327.118981 170.913572,314.01743 Z M144,60.0757793 L144,60 L60,60 L60,112 L144,112 L144,111.924221 C157.424895,110.902971 168,99.6864595 168,86 C168,72.3135405 157.424895,61.097029 144,60.0757793 Z"/>
+    <filter id="launcher-icon-c" width="107%" height="104.9%" x="-3.5%" y="-2.4%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="6"/>
+      <feOffset dy="4" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.112295596   0 0 0 0 0.205487975   0 0 0 0 0.314147534  0 0 0 0.76953125 0"/>
+    </filter>
+    <linearGradient id="launcher-icon-d" x1="50%" x2="50%" y1="0%" y2="98.113%">
+      <stop offset="0%" stop-color="#6AE7C4"/>
+      <stop offset="100%" stop-color="#3289DC"/>
+    </linearGradient>
+    <path id="launcher-icon-e" d="M-1.95531481e-06,221.729664 C13.4160922,192.927091 42.3160918,172.791471 76,172.022798 L76,172 L138.312825,172 C138.307229,171.973883 138.301619,171.947772 138.295996,171.921665 C139.524175,171.973715 140.759018,172 142,172 C189.496488,172 228,133.496488 228,86 C228,38.5035115 189.496488,0 142,0 C103.565896,0 71.0204188,25.2122062 60.0001862,60 L140,60 L140,60.0568612 C155.636064,60.9488104 168,72.223046 168,86 C168,99.776954 155.636064,111.05119 140,111.943139 L140,112 L60.0001861,112 C60.0109363,112.033935 60.021707,112.067861 60.0324981,112.101778 C34.814311,113.398715 12.8448872,126.988345 -3.99680204e-15,146.994895 L-2.2204452e-15,221.72966 Z"/>
+    <filter id="launcher-icon-f" width="107%" height="107.2%" x="-3.5%" y="-3.6%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="6"/>
+      <feOffset dy="4" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.0590890426   0 0 0 0 0.125379981   0 0 0 0 0.202673257  0 0 0 0.607252038 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="url(#launcher-icon-a)" xlink:href="#launcher-icon-b"/>
+    <use fill="#000" filter="url(#launcher-icon-c)" xlink:href="#launcher-icon-b"/>
+    <g>
+      <use fill="url(#launcher-icon-d)" xlink:href="#launcher-icon-e"/>
+      <use fill="#000" filter="url(#launcher-icon-f)" xlink:href="#launcher-icon-e"/>
+    </g>
+  </g>
+</svg>
